@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+header {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.Logo-wrap-header {
+    width: 20%;
+    height: 20vh;
+    background-image: url(./img/logo.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo-wrap-header a {
+    width: 100%;
+    height: 100%;
+    
+}
+.Btn-wrap-header {
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.Btn-wrap-header a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.Btn-wrap-header a:hover {
+    color: rgb(59, 59, 59);
+    font-size: 1.7em;
+}
+.Info-wrap-header {
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.Info-wrap-header p{
+    color: white;
+    margin-bottom: -3%;
+}
+.Info-wrap-header span {
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    header {
+        height: 75vh;
+        flex-direction: column;
+        gap: 5%;
+    }
+    .Logo-wrap-header {
+        width: 90%;
+        background-size: 90%;
+    }
+    .Btn-wrap-header {
+        width: 90%;
+        flex-direction: column;
+    }
+    .Btn-wrap-header a {
+        font-size: 1.5em;
+    }
+    .Btn-wrap-header a:hover {
+        font-size: 1.7em;
+    }
+    .Info-wrap-header {
+        width: 90%;
+    }
+}
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Sections-wrap-footer {
+    width: 20%;
+    height: 40vh;
+}
+.Logo-wrap-footer {
+    width: 100%;
+    height: 20vh;
+    background-image: url(./img/logo.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logo-wrap-footer a {
+    width: 100%;
+    height: 100%;
+    
+}
+.Txt-wrap-footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.Txt-wrap-footer span {
+    font-weight: bold;
+}
+.Txt-wrap-footer p {
+    font-size: 1em;
+    color: white;
+}
+.Blog-wrap-footer {
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Blog-wrap-footer h1 {
+    color: white;
+}
+.Blog-wrap-footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.Blog-wrap-footer a:hover {
+    color: gray;
+    font-size: 1.3em;
+}
+.Help-wrap-footer {
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Help-wrap-footer h1 {
+    color: white;
+}
+.Help-wrap-footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.Help-wrap-footer a:hover {
+    color: gray;
+    font-size: 1.3em;
+}
+.Map-wrap-footer {
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Widget-wrap-footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+.Authorship-wrap-footer {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Authorship-wrap-footer p {
+    color: white;
+    font-size: 1em;
+}
+.Social-wrap-footer {
+    width: 50%;
+    height: 10vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.Social-wrap-footer svg {
+    color: white;
+    transition: 0.3s ease;
+}
+.Social-wrap-footer svg:hover {
+    color: gray;
+}
+@media only screen and (max-width: 768px) {
+    footer {
+        height: 190vh;
+        flex-direction: column;
+    }
+    .Sections-wrap-footer, .Blog-wrap-footer, .Help-wrap-footer, .Map-wrap-footer {
+        width: 100%;
+    }
+    .Widget-wrap-footer {
+        height: 20vh;
+        flex-direction: column;
+    }
+    .Authorship-wrap-footer,.Social-wrap-footer {
+        width: 100%;
+        text-align: center;
+    }
+    .Logo-wrap-footer {
+        background-size: 90%;
+    }
+    .Authorship-wrap-footer {
+        align-items: end;
+    }
+    .Authorship-wrap-footer p {
+        margin-bottom: 0px;
+    }
+}
